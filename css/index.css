@@ -12,6 +12,30 @@ p {
     color: #ffffff;
 }
 
+.navigatie-zoek-veld {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border: none;
+}
+
+.navigatie-zoek-button {
+    background-color: #f8991c;
+    margin-left: -12px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 5px;
+}
+
+.navigatie-zoek-button:hover {
+    background-color: #f38d07;
+}
+
+.navigatie-zoek-button i {
+    color: #ffffff;
+}
 .navigatie-zoeken, .navigatie-close {
     display: none;
 }
