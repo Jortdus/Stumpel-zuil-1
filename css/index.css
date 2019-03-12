@@ -12,6 +12,10 @@ p {
     color: #ffffff;
 }
 
+.navigatie-zoeken {
+    display: none;
+}
+
 .navigatie-zoeken, .navigatie-close {
     display: none;
 }
