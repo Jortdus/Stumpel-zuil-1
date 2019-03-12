@@ -12,10 +12,6 @@ p {
     color: #ffffff;
 }
 
-.navigatie-zoeken {
-    display: none;
-}
-
 .navigatie-zoek-veld {
     border-top-left-radius: 5px;
     border-top-right-radius: 0px;
@@ -39,11 +35,4 @@ p {
 
 .navigatie-zoek-button i {
     color: #ffffff;
-}
-.navigatie-zoeken, .navigatie-close {
-    display: none;
-}
-
-.navigatie-close {
-    padding: 0px 5px 0px 15px;
 }
