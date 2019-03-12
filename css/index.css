@@ -1,3 +1,8 @@
+.container {
+    max-width: 1400px;
+}
+
+/* NAVIGATIE */
 .navigatie {
     background-color: #1a3d73!important;
 }
@@ -29,6 +34,15 @@
 
 .navigatie-zoek-button i {
     color: #ffffff;
+}
+
+/* CTA BLOKKEN */
+#cta-blokken {
+    background-color: red;
+}
+
+.cta-blok {
+    background-color: yellow; 
 }
 
 .carousel .carousel-item {
