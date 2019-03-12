@@ -1,5 +1,73 @@
-p {
-    text-align: center;
-    margin-top: 400px;  
-    display: none;
+.container {
+    max-width: 1400px;
 }
+
+/* NAVIGATIE */
+.navigatie {
+    background-color: #1a3d73!important;
+}
+
+.navigatie a {
+    color: #ffffff;
+}
+
+.navigatie-zoek-veld {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border: none;
+}
+
+.navigatie-zoek-button {
+    background-color: #f8991c;
+    margin-left: -12px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 5px;
+}
+
+.navigatie-zoek-button:hover {
+    background-color: #f38d07;
+}
+
+.navigatie-zoek-button i {
+    color: #ffffff;
+}
+
+/* CTA BLOKKEN */
+
+.cta-blok {
+    background-color: #f7f7f7; 
+    margin: 2.5em 0;
+    border-radius: 5px;
+    height: 300px;
+    box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 100px 0px;
+    transition: .5s ease;
+}
+
+.cta-blok:hover {
+    box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.4);
+
+}
+
+.cta-blok i {
+    color: #f38d07;
+    font-size: 50px;
+    padding: 0 0 10px 0;
+}
+
+/* CAROUSEL */
+.carousel .carousel-item {
+    height: 25em;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 25em;
+  }
