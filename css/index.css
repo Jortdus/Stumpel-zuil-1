@@ -12,6 +12,10 @@ p {
     color: #ffffff;
 }
 
+.navigatie-zoeken {
+    display: none;
+}
+
 .navigatie-zoek-veld {
     border-top-left-radius: 5px;
     border-top-right-radius: 0px;

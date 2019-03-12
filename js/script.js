@@ -6,7 +6,9 @@ $( document ).ready(function() {
 });
 
 $(".navigatie-zoek").click(function(){
-    $(".navigatie-zoeken").show();
+    $(".navigatie-zoeken").animate({
+        width: 'toggle'
+    });
     $(".navigatie-zoek").hide();
     $(".navigatie-close").show();
 });
