@@ -3,3 +3,19 @@ p {
     margin-top: 400px;  
     display: none;
 }
+
+.navigatie {
+    background-color: #1a3d73!important;
+}
+
+.navigatie a {
+    color: #ffffff;
+}
+
+.navigatie-zoeken, .navigatie-close {
+    display: none;
+}
+
+.navigatie-close {
+    padding: 0px 5px 0px 15px;
+}
