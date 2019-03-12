@@ -1,9 +1,8 @@
-p {
-    text-align: center;
-    margin-top: 400px;  
-    display: none;
+.container {
+    max-width: 1400px;
 }
 
+/* NAVIGATIE */
 .navigatie {
     background-color: #1a3d73!important;
 }
@@ -35,4 +34,13 @@ p {
 
 .navigatie-zoek-button i {
     color: #ffffff;
+}
+
+/* CTA BLOKKEN */
+#cta-blokken {
+    background-color: red;
+}
+
+.cta-blok {
+    background-color: yellow; 
 }
