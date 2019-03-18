@@ -1,6 +1,28 @@
 /* ALGEMEEN */
-h3 {
+a {
+    text-decoration: none!important ;
+}
+.algemeen-button {
+ background-color: #f49908;
+ border: 2px solid #f49908;
+ padding: 5px 50px;
+ border-radius: 5px;
+ color: #ffffff;
+}
+
+.algemeen-h2, .algemeen-h3 {
     color: #0f2c56;
+}
+
+.algemeen-link {
+    color: #000000!important;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.algemeen-link::before {
+    content: "< ";
+    color: #000000; 
 }
 
 .row {
@@ -13,6 +35,7 @@ html {
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 25px;
+    border: 1px solid black;
 }
 
 .container {
@@ -20,6 +43,39 @@ html {
 }
 
 /* NAVIGATIE */
+.navigatie {
+    background-color: #f8991c!important;
+}
+
+.navigatie a {
+    color: #ffffff;
+}
+
+.navigatie-zoek-veld {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border: none;
+}
+
+.navigatie-zoek-button {
+    background-color: #f8991c;
+    margin-left: -12px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 5px;
+}
+
+.navigatie-zoek-button:hover {
+    background-color: #f38d07;
+}
+
+.navigatie-zoek-button i {
+    color: #ffffff;
+}
+
 
 /* CTA SLIDER */
 .cta-slider {
@@ -48,8 +104,8 @@ html {
     border: 1px solid #f49908;
 }
 
-.cta-links i {
-    font-size: 60px;
+.cta-links img {
+    width: 60px;
     margin: -15px 0 15px 0;
     color: #f49908;
 }
@@ -65,3 +121,15 @@ html {
       left: 0;
       min-height: 25em;
   } */
+
+
+  /* PAGINA UITLEG */
+  .uitleg {
+      margin: 0 auto;
+      text-align: center;
+      padding: calc(800px/2/2);
+  }
+
+  .uitleg-button {
+      margin-top: 20px;
+  }
